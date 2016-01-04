@@ -14,7 +14,7 @@ def binary_search(arr,key):
 	#uncomment to get ceil of key i.e. closest element to key such that arr[i]>key
 	#return r
 	
-	#uncomment to get ceil of key i.e. closest element to key such that arr[i]<key
+	#uncomment to get floor of key i.e. closest element to key such that arr[i]<key
 	#return l
 	
 	return "key not found" 
