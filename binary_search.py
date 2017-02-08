@@ -3,7 +3,7 @@ def binary_search(arr,key):
 	if key<arr[0]:return -1
 	if key>arr[n-1]:return n+1
 	l=0;r=n-1
-	while r-l>1:
+	while r-l>0:
 		mid=(l+r)/2
 		if arr[mid]==key:return mid
 		if arr[mid]>key:r=mid-1
